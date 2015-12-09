@@ -1,0 +1,54 @@
+*, *:before, *:after {
+	box-sizing: content-box;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 300 14px/18px 'Roboto', sans-serif;
+
+	height: 100%;
+
+	color: #323a45;
+}
+a {
+	text-decoration: none;
+
+	color: $b-color;
+	&:hover {
+		color: #f79d15;
+	}
+}
+.wrapper {
+	width: 100%;
+	min-width: 320px;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+.container {
+	overflow: hidden;
+
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.strong {
+	font-weight: 400;
+}
+.gNotify {
+	display: none;
+	position: absolute;
+	left: 0; top: 44px;
+	width: 100%;
+	padding: 24px 12px;
+	background-color: #ff0000;
+	color: #fff;
+}
+.noJs-notify {
+	margin: 0;
+}
+.noJs .gNotify {
+	display: block;
+}

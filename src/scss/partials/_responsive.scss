@@ -1,0 +1,129 @@
+@media screen and (min-width: 760px) {
+	.h-nav-list {
+		display: inline-block!important;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 720px;
+	}
+	.mSlider-item-comment {
+		margin: 0 0 0 -376px;
+	}
+	.rangeBox-heading {
+		font-size: 32px;
+	}
+	.rangeBox-calc-ranges-row {
+		height: auto;
+	}
+	.rangeBox-calc-ranges-label {
+		display: block;
+
+		width: auto;
+		margin: 0 0 6px;
+	}
+	.rangeBox-calc-ranges {
+		width: 406px;
+	}
+	.rangeBox-calc-submin {
+		padding: 48px 0 0 0;
+	}
+	.rangeBox-calc-input {
+		width: calc(100% - 56px);
+	}
+
+	.benefits-wrapp {
+		display: block;
+	}
+	.benefits-item {
+		width: auto;
+		margin: 0 0 96px;
+	}
+}
+
+
+
+@media screen and (max-width: 760px) {
+	.container {
+		position: relative;
+
+		overflow: visible;
+
+		width: 520px;
+	}
+	.mSlider-item-comment {
+		margin: 0 0 0 -298px;
+	}
+	.rangeBox-heading {
+		font-size: 28px;
+	}
+	.rangeBox-calc-ranges {
+		width: 100%;
+	}
+	.rangeBox-calc-submin {
+		width: 100%;
+		margin: 0;
+		padding: 24px 0 0;
+
+		text-align: center;
+	}
+	.promo-item {
+		width: 100%;
+		margin: 0;
+
+		border-left: 0 none;
+	}
+	.slick-prev, .slick-next {
+		display: none!important;
+	}
+	.h-nav {
+		position: absolute;
+		z-index: 1;
+		top: 44px;
+		right: 0;
+
+		width: 320px;
+		padding: 0;
+
+		background-color: #e8eef4;
+	}
+	.h-nav-icon {
+		position: absolute;
+		top: -36px;
+		right: 12px;
+
+		visibility: visible;
+	}
+	.h-nav-list {
+		display: none;
+
+		width: 100%;
+	}
+	.h-nav-list-item {
+		display: block;
+
+		margin: 0 0 12px;
+
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.container {
+		width: 300px;
+		padding: 0 6px;
+	}
+	.mSlider-item-comment {
+		margin: -32px 0 0 -150px;
+		* {
+			font-weight: 100;
+
+			padding: 0;
+		}
+	}
+	.mSlider-item-comment-msg {
+		font-size: 18px;
+
+		width: 300px;
+	}
+}

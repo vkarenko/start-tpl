@@ -1,0 +1,27 @@
+{
+  "name": "datatb",
+  "version": "1.0.0",
+  "description": "test for DataTables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vkarenko",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-rigger": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-plumber": "*",
+    "gulp-sass": "*",
+    "gulp-minify-css": "*",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "gulp-imagemin": "*",
+    "imagemin-pngquant": "*",
+    "rimraf": "*"
+  }
+}

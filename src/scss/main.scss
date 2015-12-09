@@ -1,0 +1,16 @@
+// Third party
+@import 'partials/normalize'; // Normalize.css
+
+// Custom
+@import 'partials/variables';
+@import 'partials/base';
+
+// UI Elements
+
+
+// Sections
+@import 'partials/header';
+@import 'partials/content';
+@import 'partials/footer';
+
+@import 'partials/responsive';
